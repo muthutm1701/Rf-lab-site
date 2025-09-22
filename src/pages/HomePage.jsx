@@ -4,19 +4,19 @@ const HomePage = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const carouselImages = [
         {
-            src: 'https://placehold.co/1200x500/38BDF8/FFFFFF?text=RF+System+Engineering+Lab',
-            alt: 'RF Engineering Lab',
-            title: 'Innovating the Future of Wireless Communication',
+            src: '/images/image1.jpg',
+            alt: 'sastra',
+            
         },
         {
-            src: 'https://placehold.co/1200x500/0EA5E9/FFFFFF?text=Advanced+Prototyping',
+            src: '/images/image2.jpg',
             alt: 'Advanced Prototyping',
-            title: 'State-of-the-Art Design & Prototyping',
+            
         },
         {
-            src: 'https://placehold.co/1200x500/0284C7/FFFFFF?text=5G+Research',
+            src: '/images/image3.jpg',
             alt: '5G Research',
-            title: 'Pioneering Research in 5G Technology',
+           
         },
     ];
 

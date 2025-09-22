@@ -7,7 +7,7 @@ import Footer from './components/Footer.jsx';
 import HomePage from './pages/HomePage.jsx';
 import FacultyPage from './pages/FacultyPage.jsx';
 import PlaceholderPage from './pages/PlaceholderPage.jsx';
-
+import ResearchScholarsPage from './pages/ResearchScholarsPage.jsx'
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -23,6 +23,7 @@ export default function App() {
     switch (currentPage) {
       case 'Home': return <HomePage />;
       case 'Faculty': return <FacultyPage />;
+      case 'Research Scholars': return <ResearchScholarsPage />; 
       default: return <PlaceholderPage title={currentPage} />;
     }
   };
