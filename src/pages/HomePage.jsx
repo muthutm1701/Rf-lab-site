@@ -75,14 +75,12 @@ const HomePage = () => {
         </p>
         <div className="flex justify-center items-center gap-8 md:gap-16 mt-16 flex-wrap">
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                <img src="https://placehold.co/200x80/CCCCCC/333333?text=Partner+Logo+1" alt="Partner 1" className="h-16 object-contain" />
+                <img src="/images/logo.png" alt="Partner 1" className="h-16 object-contain" />
             </div>
             <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                <img src="https://placehold.co/200x80/CCCCCC/333333?text=Partner+Logo+2" alt="Partner 2" className="h-16 object-contain" />
+                <img src="/images/logo2.jpg" alt="Partner 2" className="h-16 object-contain" />
             </div>
-            <div className="p-4 bg-white rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                <img src="https://placehold.co/200x80/CCCCCC/333333?text=Partner+Logo+3" alt="Partner 3" className="h-16 object-contain" />
-            </div>
+           
         </div>
       </section>
     </div>

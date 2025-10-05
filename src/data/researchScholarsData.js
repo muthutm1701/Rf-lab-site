@@ -15,12 +15,12 @@ export const researchScholarsData = [
     name: 'Ms. G. Suguna',
     title: 'Junior Research Fellow (JRF)',
     fellowship: 'IIT Tirupati Navavishkar I-Hub Foundation (IITTNiF) Fellowship',
-    domain: 'N/A',
+    domain: null,
   },
   {
     name: 'Mr. A. Dhinakaran',
     title: 'Project Associate (PA)',
-    fellowship: 'N/A',
+    fellowship: null,
     domain: 'Signal processing for radar applications',
   },
   {
@@ -56,13 +56,13 @@ export const researchScholarsData = [
   {
     name: 'Ms. V. Filomin Joseena',
     title: 'Research Assistant (RA)',
-    fellowship: 'N/A',
+    fellowship: null,
     domain: 'IRS, Metasurface, 6G Communication',
   },
   {
     name: 'Ms. Karthika M',
     title: 'Teaching Assistant (TA)',
-    fellowship: 'N/A',
+    fellowship: null,
     domain: 'RFID and MMwave Antenna',
   },
   {
@@ -71,4 +71,11 @@ export const researchScholarsData = [
     fellowship: 'IITNiF – Chanakya Fellowship Scheme',
     domain: 'Millimeter Antenna, Waveguide Antenna, SAR',
   },
+  {
+    name: 'J. Saranya',
+    title: 'Junior Research Fellowship',
+    fellowship: 'IIT Tirupati Navavishkar I-Hub Foundation (IITTNiF) Fellowship',
+    domain: 'Wireless Communication',
+  },
 ];
+

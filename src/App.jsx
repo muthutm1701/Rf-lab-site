@@ -8,6 +8,14 @@ import HomePage from './pages/HomePage.jsx';
 import FacultyPage from './pages/FacultyPage.jsx';
 import PlaceholderPage from './pages/PlaceholderPage.jsx';
 import ResearchScholarsPage from './pages/ResearchScholarsPage.jsx'
+import StartupsPage from './pages/StartupsPage.jsx';
+import AwardsPage from './pages/AwardsPage.jsx';
+import ResourcesPage from './pages/ResourcesPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
+import PatentsPage from './pages/PatentsPage.jsx';
+import FundedProjectsPage from './pages/FundedProjectsPage.jsx';
+import AlumniPage from './pages/AlumniPage.jsx';
+
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -24,6 +32,16 @@ export default function App() {
       case 'Home': return <HomePage />;
       case 'Faculty': return <FacultyPage />;
       case 'Research Scholars': return <ResearchScholarsPage />; 
+      case 'Publications': return <PlaceholderPage title="Publications" />;
+      case 'Projects': return <PlaceholderPage title="Projects" />;
+      case 'Startups': return <StartupsPage title="Startups" />;
+      case 'Contact': return <ContactPage title="Contact" />;
+      case 'Awards & Recognitions': return <AwardsPage title="Awards & Recognitions" />;
+      case 'Resources': return <ResourcesPage title="Resources" />;
+      case 'Contact Us': return <ContactPage title="Contact Us" />;
+      case "Patents": return <PatentsPage  title="Patents" />;
+      case "Funded Projects": return <FundedProjectsPage title="Funded Projects" />;
+      case "Alumni": return <AlumniPage title="Alumni" />;
       default: return <PlaceholderPage title={currentPage} />;
     }
   };

@@ -31,4 +31,7 @@ export const alumniData = [
     name: 'Dr. S. Karthikeyan',
     imageUrl: 'https://placehold.co/200x200/E0F2FE/0C4A6E?text=SK',
   },
+  {
+    
+  }
 ];
