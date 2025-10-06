@@ -11,7 +11,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/muthutm" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="font-semibold  hover:text-white transition-colors"
+            className="font-semibold underline hover:text-white transition-colors"
           >
             Muthu T M
           </a>
